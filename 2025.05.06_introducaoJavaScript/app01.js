@@ -3,14 +3,19 @@
 // Sintaxe básica e comentário
 // Declaração de variáveis(var, let, const)
 
-const nome = "Emerson" //palavra reservada
+const nome1 = "Emerson" //palavra reservada
 
-let nome1 = "Emerson" // Para declar let ou var.
+let nome = "Emerson1" // Para declar let ou var.
 let idade = 36 
 
-
-
 // Console e Debug
+console.log(nome)
+console.log(idade)
+
+nome = "Eduardo"
+idade = "12"
+
+console.log(nome, idade)
 
 // Operadores
 //     Operador Atribuição
