@@ -162,7 +162,28 @@ for(let i=1; i<=50; i=i+1){
     console.log(i)
 }
 
-// Arrays 
+// Arrays --> vetor
+let alunos = ["João", "Paulo", "Renata", "Cris", "X"]
+console.log(alunos)
+console.log(alunos[2])
+alunos[4] = "kleber" //para subistituir um nome do vetor
+console.log(alunos)
+alunos.push("karem") // para fazer inserção Push empurrar
+console.log(alunos)
+
+let frutas = []
+console.log(frutas)
+frutas.push("🍓") // apertar teclaro do windows mais . (ponto final)
+frutas.push("🍉")
+frutas.push("🍐")
+frutas.push("🍎")
+frutas.push("🍍")
+frutas.push("🥑")
+frutas.push("🍋")
+frutas.push("🍊")
+frutas.push("🍇")
+frutas.push("🍌")
+console.log(frutas)
 
 // Funções básicas
 // Escopo
