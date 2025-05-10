@@ -185,25 +185,7 @@ frutas.push("🍇")
 frutas.push("🍌")
 console.log(frutas)
 
-// Funções básicas 
-// --> usando para repedir, criar código, reaproveitar
-function soma(){
-    let num1 =  10, num2 = 20 // passando valores
-    let total = num1 + num2
-    console.log("O resultado é " + total)
-}
-soma()
-soma()
-
-function soma(num1, num2){ // colocando o valor em variável
-    let total = num1 + num2
-    console.log("O resultado é " + total)
-}
-soma(100, 14)
-soma(7, 3)
-
-
-
+// Funções básicas
 // Escopo
 
 
