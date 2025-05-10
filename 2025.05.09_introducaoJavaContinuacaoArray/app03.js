@@ -203,8 +203,9 @@ soma(100, 14)
 soma(7, 3)
 
 
-
 // Escopo
+
+//-->escope determina onde um variável é usada. onde a variável é vista
 
 
 // Alterar conteúdo e atributos *
