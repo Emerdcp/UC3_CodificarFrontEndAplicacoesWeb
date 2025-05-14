@@ -16,14 +16,6 @@ function calcularMedia(){
     //Atualiza o campo da média
     document.getElementById('media').value = media.toFixed(2);
 
-     //Mostra se foi aprovado ou reprovado
-    // if(media >= 5){
-    //     document.getElementById('resultado').value = "Aprovado";
-    // }
-    // else{
-    //     document.getElementById('resultado').value = "Reprovado";
-    // }
-
     const resultado = document.getElementById('resultado');
 
     if (media >= 5) {

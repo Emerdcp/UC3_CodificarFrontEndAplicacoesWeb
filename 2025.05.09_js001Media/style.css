@@ -54,6 +54,6 @@ body {
 
 .reprovado {
   background-color: #f8d7da;
-  color: #e50f25 !important;
+  color: #e50f25 !important; /*Quando colocado !important ele sobre escreve do o código do bootstrap*/
   font-weight: bold;
 }
