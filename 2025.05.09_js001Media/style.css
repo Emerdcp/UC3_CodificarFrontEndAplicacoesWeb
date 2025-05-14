@@ -20,7 +20,7 @@ body {
 }
 
 .page-subtitle {
-  color: #ffffff;
+  color: #000000;
   margin-top: 5px;
 }
 
@@ -33,4 +33,27 @@ body {
   position: absolute;
   top: 10px;
   right: 10px;
+}
+
+
+/* Centraliza os textos dos campo digitados*/
+.centralizar {
+  display: flex;
+  justify-content: center; /* alinha horizontalmente */
+  align-items: center;     /* alinha verticalmente */
+  min-height: 10vh;       /* ocupa a altura total da tela */
+  text-align: center;
+}
+
+/* Coloca cor se aprovado ou reprovado*/
+.aprovado {
+  background-color: #d4edda;
+  color: #24a342 !important; /*Quando colocado !important ele sobre escreve do o código do bootstrap*/
+  font-weight: bold;
+}
+
+.reprovado {
+  background-color: #f8d7da;
+  color: #e50f25 !important;
+  font-weight: bold;
 }
