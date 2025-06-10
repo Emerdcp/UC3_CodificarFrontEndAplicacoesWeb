@@ -1,5 +1,11 @@
 // JSON - javascript object notation
 
+//Quando usado no HTLM for um classe, usa .lista-filme1
+//Quando usado no HTML for um Id, usa #lista-filme1
+//Quando usado no HTML dor dispatchEvent, usa Div
+//O ` usado para poder pegar as váriais, que tem que estar com ${}
+//Usado no innerHTML e colocar += para conctenar e apresentar os outros filmes
+
 let filme1 = {
     titulo: "Jurassic Park 0",
     foto: "filme1.webp",
@@ -16,7 +22,7 @@ let filme2 = {
 
 let filme3 = {
     titulo: "Lilo & Stitch",
-    foto: "filme2.jpg",
+    foto: "filme3.jpg",
     avaliacao: "10/10",
     duracao: "1h55m"
 }
@@ -28,30 +34,16 @@ let filme4 = {
     duracao: "1h30m"
 }
 
-// uma forma para apresentar os itens.
+let filme5 = {
+    titulo: "Como Treinar o Seu Dragão",
+    foto: "filme5.jpg",
+    avaliacao: "09/10",
+    duracao: "1h52m"
+}
 
-//function fnMontarCartao(filmeAtual){
-    // console.log(`Título: ${filmeAtual.titulo} Duração: ${filmeAtual.duracao} Avalição: ${filmeAtual.avaliacao}`) este para fazer a impressão
-    // console.log("Título: " + filmeAtual.titulo) uma forma de fazer
-    // console.log("Duração: " + filmeAtual.duracao)
-
-//}
-
-// Criarção do cards dentro do java, montando junto com a função
-// Faz a impressão no Inspector para avaliar.
-
-// function fnMontarCartao(filmeAtual){
-//     console.log(` 
-//         <div class="card-filme">
-//             <img src="img/${filmeAtual.foto}">
-//             <h3>${filmeAtual.titulo}</h3>
-//             <span>⭐${filmeAtual.avaliacao}</span>
-//         </div>
-//         `)
-// }
 
 function fnMontarCartao(filmeAtual){
-    document.querySelector(".lista-filmes").innerHTML = `
+    document.querySelector(".lista-filmes").innerHTML += `
         <div class="card-filme">
             <img src="img/${filmeAtual.foto}">
             <h3>${filmeAtual.titulo}</h3>
@@ -70,3 +62,4 @@ fnMontarCartao(filme1)
 fnMontarCartao(filme2)
 fnMontarCartao(filme3)
 fnMontarCartao(filme4)
+fnMontarCartao(filme5)

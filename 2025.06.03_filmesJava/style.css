@@ -168,3 +168,24 @@ button:hover {
 .container p{
     margin: 0 50px;
 }
+
+
+
+
+/* Só teste de borda */
+.container {
+    width: 300px;
+    height: 100px;
+    background-color: #0E0E0E;
+    position: relative;
+    border-radius: 11px;
+}
+
+.container::before{
+    content: "";
+    position: absolute;
+    inset: -5px;
+    z-index: -1;
+    border-radius: 16px;
+    background: linear-gradient(220.94deg, #eb3850 14.43%, #cb162e 85.28%);
+}

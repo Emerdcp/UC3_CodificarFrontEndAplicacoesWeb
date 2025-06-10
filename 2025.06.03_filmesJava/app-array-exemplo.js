@@ -1,3 +1,5 @@
+/*API de Exemplos.*/
+
 /* console.log("funcionou") Console Log Funcionamento do site por trás*/
 /* alert("funcionou") Usando para mostrar um alerta na tela*/
 /* prompt("funcionou") Usado para pode digitar um comando*/
@@ -54,3 +56,38 @@ function fnMontarCartao(Nome, idade){
 }
 
 fnMontarCartao(Emerson, 36)
+
+
+
+
+// uma forma para apresentar os itens.
+
+//function fnMontarCartao(filmeAtual){
+    // console.log(`Título: ${filmeAtual.titulo} Duração: ${filmeAtual.duracao} Avalição: ${filmeAtual.avaliacao}`) este para fazer a impressão
+    // console.log("Título: " + filmeAtual.titulo) uma forma de fazer
+    // console.log("Duração: " + filmeAtual.duracao)
+
+//}
+
+// Criarção do cards dentro do java, montando junto com a função
+// Faz a impressão no Inspector para avaliar.
+
+// function fnMontarCartao(filmeAtual){
+//     console.log(` 
+//         <div class="card-filme">
+//             <img src="img/${filmeAtual.foto}">
+//             <h3>${filmeAtual.titulo}</h3>
+//             <span>⭐${filmeAtual.avaliacao}</span>
+//         </div>
+//         `)
+// }
+
+function fnMontarCartao(filmeAtual){
+    document.querySelector(".lista-filmes").innerHTML = `
+        <div class="card-filme">
+            <img src="img/${filmeAtual.foto}">
+            <h3>${filmeAtual.titulo}</h3>
+            <span>⭐${filmeAtual.avaliacao}</span>
+        </div>
+        `
+}
