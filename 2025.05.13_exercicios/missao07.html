@@ -1,0 +1,31 @@
+<script>
+    var data = new Date();
+    var diaDaSemana = data.getDay();
+    var diaDaSemanaExtenso;
+
+    switch (diaDaSemana) {
+        case 1:
+            diaDaSemanaExtenso = "domingo";
+            break;
+        case 2:
+            diaDaSemanaExtenso = "segunda-feira";
+            break;
+        case 3:
+            diaDaSemanaExtenso = "terça-feira";
+            break;
+        case 4:
+            diaDaSemanaExtenso = "quarta-feira";
+            break;
+        case 5:
+            diaDaSemanaExtenso = "quinta-feira";
+            break;
+        case 6:
+            diaDaSemanaExtenso = "sexta-feira";
+            break;
+        default:
+            diaDaSemanaExtenso = "segunda-feira";
+            break;
+    }
+
+    console.log("Hoje e " + diaDaSemanaExtenso + ".");
+</script>

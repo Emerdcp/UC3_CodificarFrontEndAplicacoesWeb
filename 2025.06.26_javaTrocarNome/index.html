@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body id="pagina"> <!-- onload="fnMudar()" Dispara automatico -->
+    <h1 id="titulo">Emerson Carvalho</h1>
+    <h2 id="profissao">Programador</h2>
+    <button type="button" onclick="fnMudar()">Click Aqui</button><!-- <button type="button" onmousemove="fnMudar()">Click Aqui, troca</button> Usado para quando passar o mouse-->
+    <button type="button" onclick="fnModoDark()">Modo Dark</button>
+    <button type="button" onclick="fnModoLight()">Modo Light</button>
+    <img src="imagem/lua.png" width="40" height="40" onclick="fnModoDark()" alt="">
+    <img src="imagem/sol.png" width="40" height="40" onclick="fnModoLight()" alt="">
+    <img src="imagem/carnaval.png" width="40" height="40" onclick="fnModoCarnaval()" alt="">
+
+    <br><hr><br>
+
+    <!-- <img src="imagem/imagem1.jpg" width="100%" height="350" alt="" id="banner"> -->
+
+    <!-- forma 1 de fazer
+    <img src="imagem/imagem1.jpg" width="70" height="70" alt="" onclick="fnBanner1()">
+    <img src="imagem/imagem2.jpg" width="70" height="70" alt="" onclick="fnBanner2()">
+    <img src="imagem/imagem3.jpg" width="70" height="70" alt="" onclick="fnBanner3()"> -->
+
+    <!-- forma 2 de fazer -->
+    <img id="banner" src="imagem/imagem1.jpg" width="100%" height="350" alt="">
+
+    <img src="imagem/imagem1.jpg" width="70" height="70" alt="" onclick="fnBanner(0)">
+    <img src="imagem/imagem2.jpg" width="70" height="70" alt="" onclick="fnBanner(1)">
+    <img src="imagem/imagem3.jpg" width="70" height="70" alt="" onclick="fnBanner(2)">
+
+    <script src="app.js"></script>
+</body>
+</html>
