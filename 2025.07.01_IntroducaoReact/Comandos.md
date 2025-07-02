@@ -57,3 +57,31 @@ Exemplo: http://localhost:5173/
 2. Instalação de Bootstrap icon.
 `npm install bootstrap-icons`
 
+3. Para remoção da bicliotecas
+`npm uninstall bootstrap`
+
+## Instalar as extenções no Visual Code.
+
+- **Error Lens**
+- **ES7 + React/redux**
+- **IntellSense for CSS**
+- **Portuguese(Brasil)**
+- **Simples React Snippets**
+- **VSCode-icons**
+     
+
+## Comando para poder Organizar automáticamento o código
+
+- Dar um CONTROL + , 
+
+Com isso vai abrir configuração.
+
+clicar na Folha no conto direito, lá cima
+
+![alt text](image.png)
+
+Colocar o código abaixo.
+
+"editor.formatOnSave": true
+
+![alt text](image-1.png)
