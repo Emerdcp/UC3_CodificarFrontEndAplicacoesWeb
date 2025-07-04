@@ -1,0 +1,41 @@
+body {
+  background-color: #000000;
+  /*Cor de fundo*/
+}
+
+.card {
+  color: white;  /*Cor do texto*/
+  font-family: sans-serif;  /*cor do texto*/
+  border: 1px solid white;  /*boradar e cor */
+  border-radius: 15px;  /*Cantos Arredados*/
+  text-align: center;  /*texto centralizado*/
+  width: 20%;  /*Para pegar sempre o mesmo tamanho*/
+  margin: 0 auto;  /*Ajustar a margem*/
+  padding: 20px;  /*Espaçamento*/
+  box-shadow: 5px 6px 10px white;  /*Cor da borda*/
+}
+
+.card:hover {
+  cursor: pointer;  /*muda o cursor quando passado o mouse*/
+}
+
+.card-title {
+  border-left: 5px solid rgb(30, 157, 151);  /*Borda na esquerada*/
+  border-radius: 15px;  /*Cantos Arredados*/
+}
+
+.tag{
+  background-color: rgb(255, 255, 255); /*Color da letra*/
+  padding: 10px; /*Margem*/
+  border-radius: 3px; /*tamnaho da margem*/
+  margin: 3px; /*Margem*/
+  display: inline-block;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 15px;  /*Cantos Arredados*/
+}
+
+.card-imagem {
+  border-radius: 10px;
+}
