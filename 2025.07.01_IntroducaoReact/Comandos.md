@@ -2,6 +2,10 @@
 
 Como instalar para React para fazer utilização do projeto.
 
+## Criado um pasta Raiz SITE senac
+
+##**Para abrir o terminal CONTROL + "**
+
 1. Abrir Executar e digitar CMD.
 
 2. Verificar o Note.
@@ -9,7 +13,8 @@ Como instalar para React para fazer utilização do projeto.
 
 3. Para ver NPM.
 `npm --v`
-obs: lembrar no Studo Code na linha de comando mudar para Command promt no + (mais) - Outra Observação para criar na pasta já determinada é só colocar o comando `npm create vite@latest .`
+obs: lembrar no Studo Code na linha de comando mudar para Command promt no + (mais) - Outra Observação para criar na pasta já determinada é só colocar o comando `npm create vite@latest .` .
+Na segunda escolher a opção `Ignore files and contiue`.
 
 4. Instalar o vite.
 `npm install vite -g`
@@ -47,7 +52,7 @@ Exemplo: http://localhost:5173/
 13. Para finalizar.
 `code .`
 
-
+# Lembrando para iniciar, precisa ir em ternimar, e alterar para Command promt e da um `npm run dev`
 
 ## No Code da para fazer instalação de nova bicliotecas
 
