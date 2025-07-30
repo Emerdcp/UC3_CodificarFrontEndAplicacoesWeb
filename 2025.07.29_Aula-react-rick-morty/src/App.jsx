@@ -5,9 +5,9 @@ function App() {
 
   return (
     <>
-      <Card />
-      <Card />
-      <Card />
+      <Card nome='Rick sanchez' foto='https://rickandmortyapi.com/api/character/avatar/1.jpeg'/>
+      <Card nome='Morty Smith' foto='https://rickandmortyapi.com/api/character/avatar/2.jpeg'/>
+      <Card nome='Summer Smith' foto='https://rickandmortyapi.com/api/character/avatar/3.jpeg'/>
     </>
   )
 }

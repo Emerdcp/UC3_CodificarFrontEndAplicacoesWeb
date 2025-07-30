@@ -1,12 +1,12 @@
 import React from "react";
 import './Card.css'
 
-function Card(){
+function Card(props){
     return(
         <>
             <div className="card">
-                <h2>Rcik Sanchez</h2>
-                <img src="https://rickandmortyapi.com/api/character/avatar/1.jpeg" />
+                <h2>{props.nome}</h2>
+                <img src={props.foto} />
             </div>
         </>
     )
