@@ -35,3 +35,25 @@ Continuar removendo
 Continuar removendo
 
 ![alt text](imagemREADME/image5.png)
+
+
+## Criação da página 
+Para criação de um do conteudo, pode ser criado as páginas no caso, em SRC/ASSETS como exemplo, 
+- *Card.css* para colocar  conteudo de CSS
+- *Card.jsx* para colcoar o conteudo de HTML
+
+## Programando a página
+No arquivo APP.JSX tem que trazer o card para trazer quantas vezes quiser.
+
+```
+function App() {
+
+  return (
+    <>
+      <Card />
+      <Card />
+      <Card />
+    </>
+  )
+}
+```

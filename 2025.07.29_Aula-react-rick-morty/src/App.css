@@ -5,20 +5,3 @@
     background-color: rgb(26, 26, 26); /* Cor de fundo da página */
   }
   
-  .card {
-    color: white; /* Cor do texto dentro da caixa */
-    font-family: sans-serif; /* Fonte do texto dentro da caixa */
-    border: 1px solid white; /*Borda branca pequena*/
-    border-radius: 10px; /* Cantos arredondados da caixa*/
-    text-align: center; /* Alinhamento do texto no centro da caixa */
-    width: 20%; /* Largura da caixa de 20% do tamanho do elemento pai, que é a div principal*/
-    margin: 0 auto; /* margin 0 pra cima e pra baixo e auto pra esquerda e pra direita, isso faz a div ficar centralizada*/
-    padding: 10px; /* Espaçamento interno de 10px em todos os lados da caixa */
-    box-shadow: 5px 6px 0 white; /*sombra da caixa*/
-  }
-  .card img {
-    width: 100%; /* largura de 100% da imagem*/
-    border-radius: 8px; /* Cantos arredondados */
-  }
-  
-   
