@@ -21,7 +21,6 @@ If you are developing a production application, we recommend using TypeScript wi
 
 03. git push origin main
 
-
 # Limpeza do Projeto
 
 Precisa limpar os arquivos para poder iniciar, delete os arquivos dentro da pasta.
