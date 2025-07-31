@@ -21,11 +21,13 @@ function App() {
 
   return (
     <>
-      {
-        personagens.map(function (umPersonagem){
-          return <Card info={umPersonagem}/>
-        })
-      }
+      <div className='lista'>
+        {
+          personagens.map(function (umPersonagem) {
+            return <Card info={umPersonagem} />
+          })
+        }
+      </div>
     </>
   )
 

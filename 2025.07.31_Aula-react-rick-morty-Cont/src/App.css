@@ -5,3 +5,8 @@
     background-color: rgb(26, 26, 26); /* Cor de fundo da página */
   }
   
+.lista{
+  display: flex; /*coloca os cards lado a lado*/
+  flex-wrap: wrap; /*Flexbox para controlar como os itens flexíveis se comportam quando não cabem em uma única linha*/ 
+  padding: 30px; /* espaçamento interno de 30 pixels em todos os lados */
+}
