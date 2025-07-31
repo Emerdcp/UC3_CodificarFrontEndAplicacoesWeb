@@ -1,0 +1,7 @@
+* {
+    box-sizing: border-box; /*faz com que a largura e altura de um elemento incluam o preenchimento (padding) e a borda (border) no cálculo, resultando em um layout mais previsível*/
+  }
+  body {
+    background-color: rgb(26, 26, 26); /* Cor de fundo da página */
+  }
+  
