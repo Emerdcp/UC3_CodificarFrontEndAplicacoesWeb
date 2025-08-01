@@ -1,0 +1,12 @@
+.logo {
+    display: flex; /*Acerta o tamanho dos card*/
+    flex-direction: row; /*Coloca o tamanho e direciona o tamanho dos card*/
+    justify-content: center; /*Alinhas o centro dos card*/
+  }
+  .logo img {
+    width: 500px; /* largura de 100% da imagem*/
+    object-fit: cover;
+    aspect-ratio: 2/1;
+  }
+
+   

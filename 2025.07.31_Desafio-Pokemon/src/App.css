@@ -1,0 +1,17 @@
+*{
+  box-sizing: border-box; /*margem do card*/
+  margin: 0; /*Relugar o espacamento*/
+  padding: 5px; /*Relugar o espacamento interno*/
+}
+
+body {
+  background-color: rgb(26, 26, 26);
+}
+
+.lista{
+  display: grid; /*Colunas*/
+  grid-template-columns: repeat(3, 1fr); /*Colocar a quantidade de colunas*/
+  gap: 50px; /*Espaçamento de um item pro outro*/
+  padding: 50px; /* espaçamento*/
+}
+
