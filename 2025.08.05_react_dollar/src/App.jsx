@@ -1,13 +1,14 @@
-import { useState } from 'react'
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
-
+  
   return (
     <>
       <h1 className='display-3'>Calculadora Dólar</h1>
-      <img src="/public/dollar.png" width='50' />
+      <img src="/public/dollar.gif" width='50' />
+      <br />
+      <button className='btn btn-primary'>Click Aqui</button>
     </>
   )
 }

@@ -42,6 +42,16 @@ npm run dev
 npm install react-router-dom@latest
 ```
 
+## Instale do BootStrap
+
+```
+npm install bootstrap
+```
+
+- sempre colocar como primeiro no App.jsx
+```
+import 'bootstrap/dist/css/bootstrap.min.css';
+```
 
 ## ✅ 2. Limpar Projeto
 
