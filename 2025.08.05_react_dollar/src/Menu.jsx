@@ -10,9 +10,9 @@ function Menu(){
                     data-bs-toggle="collapse"
                     data-bs-target="#navbarNav"
                 >
-                    <span className="navbar-toggles-icon"></span>
+                    <span className="navbar-toggler-icon"></span>
                 </button>
-                <div className="collapse navbar-collapse" id="navnarNav">
+                <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav m-auto text-center">
                         <li className="nav-item">
                             <a className='nav-link' href="#">

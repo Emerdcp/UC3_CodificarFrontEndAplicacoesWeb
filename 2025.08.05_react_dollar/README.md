@@ -50,7 +50,8 @@ npm install bootstrap
 
 - sempre colocar como primeiro no App.jsx
 ```
-import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css'
+import 'bootstrap/dist/js/bootstrap.bundle.min'css';
 ```
 
 ## ✅ 2. Limpar Projeto
