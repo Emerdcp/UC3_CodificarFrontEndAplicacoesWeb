@@ -1,7 +1,7 @@
 import './App.css'
 import Card from './Card';
 import Logo from './Logo';
-// import Musica from './Musica';
+import Musica from './Musica';
 import Video from './Video';
 
 function App() {
@@ -76,6 +76,8 @@ function App() {
       <div>
         <Logo />
       </div>
+
+      <Musica/>
 
       <div className='lista'>
         {

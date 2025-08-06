@@ -1,12 +1,15 @@
 import React from "react";
 import './Musica.css'
-import Musica from './assets/musica.mp3';
+import MusicaTema from '/public/tema.mp3'
 
 function Musica(props){
     return(
         <>
             <div className='musica'>
-                <img src={Musica} />
+                <audio controls autoPlay loop>
+                    <source src={MusicaTema} type="audio/mpeg" />
+                    Seu navegador não suporta o elemento de áudio.
+                </audio>
             </div>
         </>
     )

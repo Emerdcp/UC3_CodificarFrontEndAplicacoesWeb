@@ -1,6 +1,6 @@
 import React from "react";
 import './Logo.css'
-import LogoPokemon from './assets/pokemon.png';
+import LogoPokemon from '/public/pokemon.png';
 
 function Logo(props){
     return(
