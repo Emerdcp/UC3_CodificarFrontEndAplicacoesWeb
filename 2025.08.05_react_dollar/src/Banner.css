@@ -18,12 +18,19 @@
   width: 40px; /*tamanho do roda do botão*/
   height: 40px; /*tamanho do roda do botão*/
   top: 50%; /*transparencia*/
-  transform: translateY(-50%); /*Tamanho da escala*/
+  /* transform: translateY(-50%); Tamanho da escala */
 }
 
 .carousel-control-next:hover,
 .carousel-control-prev:hover {
   background-color: rgba(0, 0, 0, 0.6); /* fundo mais escuro no hover */
+  animation: carousel-control infinite alternate 200ms;
+}
+
+@keyframes carousel-control{
+  to {
+    transform: translateX(-10px);
+  }
 }
 
 @media (max-width: 768px) {

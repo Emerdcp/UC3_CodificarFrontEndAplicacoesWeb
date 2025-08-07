@@ -54,6 +54,17 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/js/bootstrap.bundle.min'css';
 ```
 
+## Instale do BootStrap
+
+Para instalar o e trabalhar com ícons no react
+Site para localizar os ícones.
+
+- https://react-icons.github.io/react-icons/
+
+```
+npm install react-icons
+```
+
 ## ✅ 2. Limpar Projeto
 
 
