@@ -6,6 +6,8 @@ import Rodape from './Rodape';
 import Menu from './Menu';
 import Banner from './Banner';
 import CalcDollar from './CalcDollar';
+import ConverCm from './ConverCm';
+import ConverMetro from './ConverMetro';
 
 function App() {
   
@@ -16,6 +18,8 @@ function App() {
         <Menu />
         <Banner />
         <CalcDollar />
+        <ConverCm />
+        <ConverMetro />
       </div>
       <Rodape />
     </>

@@ -3,11 +3,18 @@ import { GiReceiveMoney } from "react-icons/gi";
 
 function CalcDollar() {
 
+
     const calcular = (function(){
         const reais = document.getElementById('reais').value
         const cotacao = document.getElementById('cotacao').value
         const total = reais / cotacao
-        alert(total)
+
+        if(reais.trim() === '' || cotacao.trim() === ''){
+            alert(`O campo de "reais" ou "cotação" está vazio, poderia realizar o preenchimento.`);
+          } else {
+            alert(`A quantidade de R$ ${reais}, convertido em Dollar é $ ${total} USD.`)
+        }
+
     })
 
     return (
