@@ -17,13 +17,20 @@ function ConverMetro(){
 
     return (
         <>
-          <form className='w-25 m-auto pt-5 pb-5'>
-                    <div className='form-group mb-3'>
-                        <label htmlFor='metro'>Coloque o(s) Metro(s)</label>
-                        <input type="text" className='form-control' id='metro' />
-                    </div>
-                    <button type='button' onClick={calcularCm} className='btn btn-primary w-100'> <FaTape size={20} color='white'/> Calcular</button>
-                </form>
+            <div className='card w-25 m-auto mt-5'>
+                <div className='card-body'>
+                    <form className='pt-5 pb-5'>
+                        <div className='form-group mb-3 text-center'>
+                            <h2>Conversor Metros</h2>
+                        </div>
+                        <div className='form-group mb-3'>
+                            <label htmlFor='metro'>Coloque o(s) Metro(s)</label>
+                            <input type="text" className='form-control' id='metro' />
+                        </div>
+                        <button type='button' onClick={calcularCm} className='btn btn-primary w-100'> <FaTape size={20} color='white'/> Calcular</button>
+                    </form>
+                </div>
+            </div>
         </>
     )
 }

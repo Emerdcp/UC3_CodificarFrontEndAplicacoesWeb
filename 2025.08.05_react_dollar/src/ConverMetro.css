@@ -1,0 +1,13 @@
+.card {
+    background-color: #ffffff;     /* Fundo branco */
+    border-radius: 10px;           /* Bordas arredondadas */
+    padding: 20px;                 /* Espaçamento interno */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra */
+    transition: box-shadow 0.3s ease;        /* Suaviza o efeito ao passar o mouse */
+  }
+  
+  /* Efeito ao passar o mouse */
+  .card:hover {
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+  }
+  
