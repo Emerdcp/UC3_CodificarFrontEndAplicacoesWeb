@@ -1,12 +1,15 @@
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/js/bootstrap.bundle.min'
-import { BrowserRouter, Router, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 import './App.css'
 import Layout from './pages/Layout';
 import Home from './pages/Home';
 import Sobre from './pages/Sobre';
 import NoPage from './pages/NoPage';
+
+import ConverCm from './ConverCm';
+import ConverMetro from './ConverMetro';
 
 
 function App() {
@@ -17,7 +20,9 @@ function App() {
         <Routes>
           <Route path='/' element={<Layout />}>
             <Route index element={<Home/>} />
-            <Route path='sobre' element={<Sobre/>}/>
+            <Route path='ConverCm' element={<ConverCm/>}/>
+            <Route path='ConverMetro' element={<ConverMetro/>}/>
+            <Route path='Sobre' element={<Sobre/>}/>
             <Route path='*' element={<NoPage/>}/>
           </Route>
         </Routes>

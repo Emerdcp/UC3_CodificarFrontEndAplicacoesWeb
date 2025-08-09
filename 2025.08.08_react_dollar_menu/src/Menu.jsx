@@ -16,7 +16,17 @@ function Menu(){
                     <ul className="navbar-nav m-auto text-center">
                         <li className="nav-item">
                             <a className='nav-link' href="/">
-                                Calculadora de Dólar2
+                                Dólar
+                            </a>
+                        </li>
+                        <li className='nav-item'>
+                            <a className='nav-link' href="/ConverCm">
+                                Centimentros
+                            </a>
+                        </li>
+                        <li className='nav-item'>
+                            <a className='nav-link' href="/ConverMetro">
+                                Metos
                             </a>
                         </li>
                         <li className='nav-item'>

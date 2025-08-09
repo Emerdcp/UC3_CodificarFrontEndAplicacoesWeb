@@ -1,31 +1,10 @@
-# 💵 Calculadoras de Conversão - React + Vite
+# 📘 Guia de Criação do Projeto React + Vite
 
-Este projeto é uma aplicação web desenvolvida em React com Vite,# 💵 Calculadoras de Conversão - React + Vite
+Repositório inicial: [https://github.com/3insteinDev/projeo-loja](https://github.com/3insteinDev/projeto-loja)
 
-Este projeto é uma aplicação web desenvolvida com React e Vite, que oferece três calculadoras práticas:
+Documentação React: [https://react.dev/learn](https://react.dev/learn)
 
-- **Conversor de Real para Dólar:** Informe o valor em reais e a cotação do dólar para obter o valor convertido.
-- **Conversor de Centímetros para Metros:** Converta rapidamente centímetros em metros.
-- **Conversor de Metros para Centímetros:** Faça a conversão inversa de metros para centímetros.
-
-## 🚀 Como executar o projeto
-
-1. **Clone o repositório:**
-   ```sh
-   git clone https://github.com/seu-usuario/seu-repositorio.git
-   cd seu-repositorio que oferece três calculadoras práticas:
-
-- **Conversor de Real para Dólar:** Informe o valor em reais e a cotação do dólar para obter o valor convertido.
-- **Conversor de Centímetros para Metros:** Converta rapidamente centímetros em metros.
-- **Conversor de Metros para Centímetros:** Faça a conversão inversa de metros para centímetros.
-
-## 🚀 Como executar o projeto
-
-1. **Clone o repositório:**
-   ```sh
-   git clone https://github.com/seu-usuario/seu-repositorio.git
-   cd seu-repositorio
-   ```
+---
 
 ## ✅ 1. Criação de um novo repositório (GitHub)
 
@@ -124,4 +103,3 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   </React.StrictMode>,
 )
 ```
-````
