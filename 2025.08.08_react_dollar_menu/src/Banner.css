@@ -1,0 +1,40 @@
+.dollar {
+    max-height: 400px;  /* Ajuste conforme necessário */
+    object-fit: cover;  /* Corta para caber se ultrapassar a proporção */
+    margin: 0 auto;
+    display: block;
+}
+
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  filter: brightness(0); /* preto */
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  background-color: rgba(0, 0, 0, 0.2); /* botão com fundo preto leve */
+  border-radius: 50%; /*deixa o botão redondo*/
+  width: 40px; /*tamanho do roda do botão*/
+  height: 40px; /*tamanho do roda do botão*/
+  top: 50%; /*transparencia*/
+  /* transform: translateY(-50%); Tamanho da escala */
+}
+
+.carousel-control-next:hover,
+.carousel-control-prev:hover {
+  background-color: rgba(0, 0, 0, 0.6); /* fundo mais escuro no hover */
+  animation: carousel-control infinite alternate 200ms;
+}
+
+@keyframes carousel-control{
+  to {
+    transform: translateX(-10px);
+  }
+}
+
+@media (max-width: 768px) {
+    .dollar {
+        max-height: 200px;
+    }
+}
