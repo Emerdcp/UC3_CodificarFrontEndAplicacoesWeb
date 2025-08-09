@@ -1,0 +1,30 @@
+.logo {
+  display: flex;  /*Acerta o tamanho dos card*/
+  flex-direction: row;  /*Coloca o tamanho e direciona o tamanho dos card*/
+  justify-content: center;  /*Alinhas o centro dos card*/
+  padding: 1rem;
+  align-items: center;
+}
+
+.logo img {
+  width: 100%;            /* ocupa toda a largura possível */
+  max-width: 500px;       /* mas não passa disso */
+  height: auto;
+  object-fit: cover;
+  aspect-ratio: 2/1;
+  transition: transform 0.6s ease; /* animação suave */
+}
+
+.logo img:hover {
+  transform: rotate(360deg); /* gira 360° */
+}
+
+@media (max-width: 600px) {
+  .logo img {
+    max-width: 300px;
+  }
+
+  .card {
+    max-width: 90%;
+  }
+}
